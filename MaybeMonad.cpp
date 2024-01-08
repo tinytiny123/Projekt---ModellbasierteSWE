@@ -69,7 +69,7 @@ Optional<int> divSafe(int x, int y) {
 
 // (x/y)/z
 
-Optional<int> example(int x, int y, int z) {y
+Optional<int> example(int x, int y, int z) {
 
   auto res = divSafe(x,y);
   if (res.isNothing()) {
